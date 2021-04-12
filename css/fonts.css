@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'function';
+    src: url('fonts/functionpro-book-webfont.eot');
+    src: url('fonts/functionpro-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/functionpro-book-webfont.woff2') format('woff2'),
+         url('fonts/functionpro-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'function';
+    src: url('fonts/functionpro-medium-webfont.eot');
+    src: url('fonts/functionpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/functionpro-medium-webfont.woff2') format('woff2'),
+         url('fonts/functionpro-medium-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	word-break: break-word;
+/*	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+*/
+	vertical-align: top;
+}
+
+html{
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+	background:#ffffff;
+	color:#a0a0a0;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.1;
+	font-variant-numeric: oldstyle-nums;
+	-moz-font-feature-settings: "onum";
+	-webkit-font-feature-settings: "onum";
+	font-feature-settings: "onum";
+}
+
+::selection {
+    background:#eee;
+    text-shadow: none;
+}
+
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+	color:#000;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+p:first-child{
+	margin-top:0;
+}
+
+h1, h2{
+	font-size: 2.7em;
+	margin-bottom:4.5rem;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight:normal;
+	line-height: 1em;
+}
+
+h4{
+	font-size: 1em;
+	margin: 1em auto;
+}
+
+a{
+	color: inherit;
+}
+
+strong,
+.strong {
+	    font-weight: 500;
+}
+
+hr{
+	color:inherit;
+	background-color:transparent;
+	height: 0;
+	text-align:center;
+	border: none;
+	border-top: 1px solid rgba(0,0,0,.07);
+}
+section+hr{
+	margin:6em 0;
+}
+
+hr.short{
+	width: 4em;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+	margin:0;
+}
+
+.text-left{text-align:left;}
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+
+.black{color:#000000;}
+
+.nums{
+	font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+
+
+
+/* ------------------------------------------------
+Layout
+--------------------------------------------------*/
+
+
+.page{
+	margin: 0 auto;
+	max-width: 1748px;
+	padding:.25% 3.25%;
+
+}
+
+header,
+section,
+footer {
+	text-align: left;
+	padding:2em 0;
+	min-width: 280px;
+}
+
+.site-header{
+	margin-bottom: 6.5%;
+}
+.site-header a{
+	text-decoration: none;
+	padding:0.125em 0;
+}
+.site-header a:hover{
+	border-bottom:1px solid;
+}
+
+.site-header > *,
+.site-header > * > *{
+	display: inline-block;
+}
+
+.site-header h1{
+	font-size: inherit;
+	margin: inherit;
+	line-height: inherit;
+}
+.site-id{
+	width:33%;
+}
+.site-title{
+	color:#000000;
+	width:49%;
+	min-width: 100px;
+	margin-bottom:1em;
+}
+.site-desc{
+	width:49%;
+}
+.site-desc > *{
+	font-style:italic;
+	display: block;
+	min-width:248px;
+	white-space: nowrap;
+}
+
+.site-nav{
+	width:66%;
+	text-align: right;
+}
+.site-nav a{
+	margin:0 .5em;
+}
+
+section{
+	width:103.5%;
+	margin-right:-1.5%;
+}
+
+.col{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 3%;
+}
+
+.col .col{margin-bottom:3%;}
+
+.w-2-2{	width:48%;} .col .w-2-2:nth-child(2n+2){margin-right:0;}
+.w-3-1{	width:30%;}
+.w-3-2{	width:63%;}
+.w-4-1{	width:24%;}
+.w-4-2{	width:49%;}
+.w-4-3{	width:74%;}
+.w-6-1{	width:16%;}
+.w-6-2{	width:32%;}
+
+.prev-link{display: block;text-decoration: none;padding-bottom:1.25em;}
+a.prev-link:hover{text-decoration:underline;}
+.prev-link img {margin-bottom:.5em;}
+.prev-title{color:#000;}
+
+.text{width:90%;}
+
+.site-footer{
+	margin-top:10em;
+	border-top:1px solid #eee;
+	padding:2em 0 16em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 769px) {
+	body{
+		font-size: 16px;
+		line-height: 1.1;
+	}
+	section,.col{
+		display: block;
+		width:100%;
+	}
+	section{
+		padding:0;
+	}
+	.col{
+		margin-bottom:1em;
+	}
+	.site-nav{
+		color:#000000;
+	}
+	.portrait{
+		max-width:180px;
+	}
+
+}

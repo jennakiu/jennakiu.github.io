@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Language" content="en, fi">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jenna Kiuru – Creative Direction</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/child.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Site begin -->
+<div class="page">
+<header class="site-header">
+
+<div class="site-id">
+  <div class="site-title">
+  <a href="index.html">Jenna Kiuru</a>
+  </div>
+  <div class="site-desc">
+    <span>
+    Creative Direction <br>Communication strategy and design
+    <span>
+  </div>
+</div>
+
+</header>
+
+<section>
+  <div class="col w-3-1">
+    <h2>Website <br>
+      Coming Soon</h2>
+    <div class="text">
+    </div>
+  </div>
+  <div class="col w-3-2">
+    <img src="img/jenna-brush-hand.jpg">
+  </div>
+</section>
+
+
+
+
+</div><!--end.page-->
+<!-- Site ends -->
+
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+    $(document.documentElement).keyup(function (e) {
+        if (e.keyCode == 39)
+        {
+           $('#slideshow').cycle('next');
+        }
+
+        if (e.keyCode == 37)
+        {
+            $('#slideshow').cycle('prev');
+        }
+
+    });
+    </script>
+    <script type="text/javascript">
+    $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 750);
+            return false;
+        }
+    }
+});
+    </script>
+
+</body>
+</html>

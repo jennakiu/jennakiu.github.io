@@ -228,10 +228,6 @@ a.prev-link:hover{text-decoration:underline;}
 
 
 @media (max-width: 769px) {
-	body{
-		font-size: 16px;
-		line-height: 1.1;
-	}
 	section,.col{
 		display: block;
 		width:100%;

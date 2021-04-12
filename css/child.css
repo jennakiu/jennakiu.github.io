@@ -128,7 +128,7 @@ header,
 section,
 footer {
 	text-align: left;
-	padding:2em 0;
+	padding:2em 0 3em;
 	min-width: 280px;
 }
 
